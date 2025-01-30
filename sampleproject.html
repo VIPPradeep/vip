@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: black;
+            margin: 0;
+        }
+        .profile-card {
+            background-color: #1f1f1f;
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid #3d3d3d;
+        }
+        .profile-card h2 {
+            margin: 15px 0 5px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .profile-card p {
+            margin: 5px 0;
+        }
+        .profile-card p.location {
+            color: #c4ff61;
+            font-weight: bold;
+        }
+        .profile-card .description {
+            color: #aaa;
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+        .profile-card .buttons a {
+            display: block;
+            text-decoration: none;
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            background-color: #333;
+            color: white;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .profile-card .buttons a:hover {
+            background-color: #555;
+        }
+        @media (max-width: 480px) {
+            .profile-card {
+                padding: 20px;
+                width: 95%;
+            }
+            .profile-card img {
+                width: 80px;
+                height: 80px;
+            }
+            .profile-card h2 {
+                font-size: 1.3em;
+            }
+            .profile-card p.location {
+                font-size: 1em;
+            }
+            .profile-card .description {
+                font-size: 0.9em;
+            }
+            .profile-card .buttons a {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="pro.png" alt="Profile">
+        <h2>Jessica Randall</h2>
+        <p class="location">London, United Kingdom</p>
+        <p class="description">"Front-end developer and avid reader."</p>
+        <div class="buttons">
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
