@@ -15,6 +15,3 @@ git config  user.name "sangeetha1"
   21 git push origin -u main
 
 
-
-
-new Day2 pull
