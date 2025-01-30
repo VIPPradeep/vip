@@ -13,3 +13,8 @@ git config  user.name "sangeetha1"
   19 git branch -m main
   20 git remote add origin https://github.com/Sangeetha-2026/demo.git
   21 git push origin -u main
+
+
+
+
+new Day2 pull
